@@ -1,4 +1,7 @@
-
+.navigation {
+    display: flex;
+    justify-content: end;
+}
 
 .title-box {
     width: 600px;
@@ -67,6 +70,10 @@
     font-size: 12px;
     margin-top: 7px;
     margin-bottom: 7px;
+    font-family: 'Roboto';
+}
+.small-box-title {
+    font-family: 'Lato';
 }
 .icon {
     width: 70px;
