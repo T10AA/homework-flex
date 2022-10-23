@@ -1,12 +1,92 @@
+/* header styling */
+.header {
+    width: 1250px;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
 .navigation {
     display: flex;
     justify-content: end;
 }
+.menu {
+    margin-right: 15px;
+    font-size: 16px;
+    color: #3D37F1;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+.logo1 {
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #3D37F1;
+    font-size: 25px; 
+}
+.logo2 {
+    font-family: 'Lato';
+    font-size: 25px; 
+    margin-right: 650px;
+}
+
+/* first section styling */
+
+.section1 {
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+}
+.some-text {
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-top: 25px;
+}
+.click-icon-text {
+    color: white;
+}
+.click-icon {
+    width: 150px;
+    height: 40px;
+    background-color: #3D37F1;
+    font-size: 12px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 25px;
+    margin-top: 90px;
+}
+.hand-icon {
+    width: 20px;
+    margin-right: 10px;
+}
+.left-box {
+    width: 400px;
+    height: 300px;
+}
+.main-title1 {
+    font-family: 'Lato';
+    font-size: 45px; 
+    font-weight: bold;
+    line-height: 1.5;
+}
+.right-box {
+    width: 500px;
+    height: 300px;
+    background-image: url(../images/undraw_pair_programming_njlp.jpg);
+    background-size: cover;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+
 
 .title-box {
     width: 600px;
     margin: 0 auto;
     text-align: center;
+    margin-top: 150px;
 }
 .section2-text {
     font-size: 20px;
